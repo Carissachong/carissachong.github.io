@@ -1,0 +1,33 @@
+.h1-my{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3em;
+    font-weight: bold;
+    text-justify: inter-ideograph;
+ 
+}
+
+.h1-float{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2em;
+    font-weight:bold; 
+    text-shadow:  7px 7px 7px rgba(27, 16, 16, 0.404);
+}
+
+.h2-text{
+    font-family: sans-serif;
+    font-size: 1.2em;    
+    font-colour:blue;
+    
+
+}
+
+
+audio{
+    color:red;
+}
+
+body{
+    background-image:url('https://i.pinimg.com/originals/87/f5/ba/87f5baf6ab368ff830a48d51b8689328.jpg') ;
+  
+}
+
