@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Source+Sans+Pro" rel="stylesheet">
+    <link rel="stylesheet" href="bootform.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+   
+</head>
+<body>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <h1>Student Member Registration</h1>
+        </div>
+    </div>
+
+    <form method="POST" action="https://script.google.com/macros/s/AKfycbyDnAB-pmDzxpb3MZM_d3fMKx1SPLw_JEzcXi2yGCeFeJvUfjk/exec">
+    
+        <div class="form-group">
+            <label for="name" class="control-label">Name:</label>
+            <input type="text" id="name" name="name" class="form-control" required>
+        </div>
+
+        <div class="form-group">
+            <div class="input-group input-group-lg">
+                <span class="input-group-addon">
+                    <i class="fa fa-envelope-o fa-fw"></i>
+                </span>
+                <input type="email" name="email" id="email" class="form-control" 
+                placeholder="Your email please" required>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="input-group input-group-lg">
+                <span class="input-group-addon">
+                    <i class="fa fa-address-book"></i>                
+                </span>
+                <input type="address" name="address" id="address" class="form-control" placeholder="
+                Your address here">
+            </div>
+        </div>
+
+        <div class="row">
+
+        <td>Gender</td>
+                <td>
+                    <input type="radio" name="diet-a" id="diet" value="veg">Vegetarian
+                    <input type="radio" name="diet-b" id="diet" value="car">Meat
+        </div>
+           
+
+
+        <div class="form-group">
+            <div class="row">
+               <div class="col-md-6">
+                   <button type="reset" class="bt bt-warning btn-lg btn-block">
+                       Clear
+                   </button>
+               </div>
+                <div class="col-md-6">
+                    <button type="submit" class="bt btn-success btn-lg btn-block">
+                        Submit
+                    </button>
+                </div>  
+            </div>           
+        </div>
+</div>
+
+
+
+
+
+    </form>
+
+
+
+</div>  
+</body>
+</html>
